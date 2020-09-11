@@ -1,0 +1,13 @@
+body {
+    background-color: darkturquoise;
+    color: red;
+}
+
+
+h1{
+    color: saddlebrown;
+    background-color: springgreen;
+    font: italic 200% fantasy;
+    text-align: center;
+    border: 3px groove rgb(5, 5, 5);
+}
