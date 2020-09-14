@@ -1,0 +1,38 @@
+body {
+    background-color: darkturquoise;
+    background-image: url("imageone.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    color: white;
+}
+
+
+h1{
+    color: black;
+    background-color: red;
+    font: italic 200% fantasy;
+    text-align: center;
+    border: 3px groove rgb(166, 233, 10);
+    width: fit-content;
+    padding: 10px;
+}
+
+h2{
+    color: black;
+    background-color: orange;
+    width: fit-content;
+    padding: 10px;
+}
+h3{
+    color: black;
+    background-color: chartreuse;
+    width: fit-content;
+    padding: 10px;
+}
+h4{
+    color: black;
+    background-color: darkmagenta;
+    width: fit-content;
+    padding: 10px;
+    
+}
