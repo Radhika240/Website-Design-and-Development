@@ -1,9 +1,9 @@
 body {
-    background-color: darkturquoise;
+    background-color: rgb(6, 77, 78);
     background-image: url("imageone.jpg");
     background-position: center;
-    background-repeat: repeat;
-    color: white;
+    background-repeat: no-repeat;
+    color:black;
 }
 
 
