@@ -2,7 +2,7 @@ body {
     background-color: rgb(6, 77, 78);
     background-image: url("imageone.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     color:black;
 }
 
@@ -23,12 +23,14 @@ h2{
     width: fit-content;
     padding: 10px;
 }
+
 h3{
     color: black;
     background-color: chartreuse;
     width: fit-content;
     padding: 10px;
 }
+
 h4{
     color: black;
     background-color: darkmagenta;
@@ -36,3 +38,29 @@ h4{
     padding: 10px;
     
 }
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+a {
+    background-color: coral;
+    color: rgb(231, 225, 226);
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: italic;
+    font-weight: 200;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: lightpink;
+    color: forestgreen;
+    padding: 10px;
+
+} 
+
