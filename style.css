@@ -58,8 +58,8 @@ a {
 }
 
 a:hover {
-    background-color: lightpink;
-    color: forestgreen;
+    background-color: rgb(43, 118, 131);
+    color: rgb(145, 180, 18);
     padding: 10px;
 
 } 
@@ -71,3 +71,12 @@ table{
     width: 500px;
 }
 
+
+/* Classes --- you can chnage particular tag using the class --- dot noation*/
+
+.TopNav {  /* Top Navigation */
+
+    background-color: ivory;
+    width: fit-content;
+    padding: 10px;
+}
