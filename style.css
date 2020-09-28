@@ -5,7 +5,7 @@ body {
     background-repeat: repeat;
     color:black;
 }
-
+/*padding is space between the sentence*/
 
 h1{
     color: black;
@@ -52,11 +52,12 @@ a {
     padding: 5px;
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font: italicbody;
+    font: inherit;
     font-weight: 200;
     border-radius: 5px;
 }
 
+/*a:hover is to make the text change color when being hovered upon*/
 a:hover {
     background-color: rgb(43, 118, 131);
     color: rgb(145, 180, 18);
@@ -72,11 +73,11 @@ table{
 }
 
 
-/* Classes --- you can chnage particular tag using the class --- dot noation*/
+/* Classes --- you can change a particular tag using the class --- all you need is just a dot noation*/
 
-.TopNav {  /* Top Navigation */
+.TopNav {  /* Top Navigation-- . is start of class*/
 
     background-color: ivory;
-    width: fit-content;
+    width: auto;
     padding: 10px;
 }
