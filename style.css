@@ -81,3 +81,33 @@ table{
     width: auto;
     padding: 10px;
 }
+
+/* Format the form fields */
+
+input[type=text] {
+
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background-color: rgb(111, 223, 145);
+    color: black;
+
+
+}
+
+input[type="text"]:focus{
+    border: 5px solid rgb(243, 5, 136);
+}
+
+input[type=password] {
+
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background-color: rgb(111, 223, 145);
+    color: black;
+    
+
+}
